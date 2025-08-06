@@ -1,0 +1,225 @@
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "1"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/7p/4kb2/5Rp1/8/2rB4/3K2PP/8 w - - 0 1"]
+[PlyCount "3"]
+[GameId "2202086483697061"]
+
+1. Rxf6+ Kxf6 2. Kxc3 {Win material} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "2"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/1p6/p3pk2/5nR1/8/P3rN2/1P3KP1/8 w - - 0 1"]
+[PlyCount "3"]
+[GameId "2202086483848614"]
+
+1. Rxf5+ exf5 2. Kxe3 {Win material} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "3"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "r3nrk1/pbp2ppp/1pq5/8/2P2n2/P1QP1N2/1BR2PPP/4RNK1 w - - 0 1"]
+[PlyCount "3"]
+[GameId "2202086483959207"]
+
+1. Rxe8 Raxe8 2. Qxg7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "4"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "r2r2k1/5pb1/2p1P2p/2R1nBpQ/1p2N3/1P5P/PP4q1/1KR5 w - - 0 1"]
+[PlyCount "5"]
+[GameId "2202086484077992"]
+
+1. Rxe5 Bxe5 2. Qxf7+ Kh8 3. Qh7# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "5"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/1q4p1/4p1P1/4Pn1Q/8/5RB1/7K/2r5 w - - 0 1"]
+[PlyCount "9"]
+[GameId "2202086484196777"]
+
+1. Qh7+ Kf8 2. Rxf5+ exf5 3. Qh8+ Ke7 4. Qxg7+ Kd8 5. Qxb7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6k1/pp2rp2/6pp/3R1n2/8/3Q4/Pq4PP/5R1K w - - 0 1"]
+[PlyCount "5"]
+[GameId "2201409719415365"]
+[SourceVersionDate "2025.07.19"]
+
+1. Rdxf5 gxf5 2. Qd8+ Kg7 3. Qxe7 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "7"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "rr3nk1/6q1/2p1pRP1/3pP1Qp/6p1/2P3P1/N6P/K1R5 w - - 0 1"]
+[PlyCount "7"]
+[GameId "2202086484417963"]
+
+1. Rf7 Qxg6 2. Rxf8+ Kg7 3. Qe7+ Kh6 4. Rf6 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "r3rn1k/3q2b1/4p2p/1Q1pn1p1/1N1N2P1/PR4BP/1P6/5RK1 w - - 0 1"]
+[PlyCount "9"]
+[GameId "2202083985338559"]
+[SourceVersionDate "2025.07.21"]
+
+1. Bxe5 Bxe5 2. Rxf8+ Rxf8 3. Qxd7 Bxd4+ 4. Kg2 Rf2+ 5. Kg3 *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "9"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4q3/2R1p1k1/3p1bpr/1p1P4/4Q3/5RP1/1P3P2/rB4K1 w - - 0 1"]
+[PlyCount "13"]
+[GameId "2202086484544941"]
+
+1. Rxf6 Rxb1+ 2. Qxb1 Kxf6 3. Qe4 Qf7 4. Qd4+ Kg5 5. Qe3+ Kh5 6. g4+ Kxg4 7. Qxh6 {Decisive advantage} *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "10"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2rbr2k/1pq2ppp/p3bn2/4p1B1/P3P3/2N3Q1/1PP1B1PP/3R1R1K w - - 0 1"]
+[PlyCount "19"]
+[GameId "2202086484676014"]
+
+1. Rxd8 Qxd8 2. Qh4 Bc4 3. Rxf6 Bxe2 4. Rh6 f6 5. Bxf6 gxf6 6. Rxh7+ Kg8 7. Qh6 Rc7 8. Qg6+ Kf8 9. Rh8+ Ke7 10. Nd5+ *
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "11"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "6k1/6p1/p3br2/1p1pQ3/5r2/1P1B2R1/1P3qPP/2R4K b - - 0 1"]
+[PlyCount "5"]
+[GameId "2202086484778415"]
+
+1... Qf1+ 2. Bxf1 Rxf1+ 3. Rxf1 Rxf1# {Mate in} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "12"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "5rk1/pp1rbp1p/5p2/5N1b/2P1p3/2BqQ1P1/PP3R1P/R3K3 b Q - 0 1"]
+[PlyCount "3"]
+[GameId "2202086484831664"]
+
+1... Qd1+ 2. Rxd1 Rxd1# {Mate in} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "13"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "3r4/1p5p/p1b3pk/R7/1P4B1/2Q3PP/1P1q1P2/6K1 b - - 0 1"]
+[PlyCount "5"]
+[GameId "2202086484884913"]
+
+1... Qd1+ 2. Bxd1 Rxd1+ 3. Kh2 Rh1# {Checkmate} 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "14"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "1kr2b1r/p2Q2p1/1p3p2/8/2P1Nn1q/5B2/P3PP2/R2R2K1 b - - 0 1"]
+[PlyCount "5"]
+[GameId "2202086485003698"]
+
+1... Qh2+ 2. Kf1 Qh1+ 3. Bxh1 Rxh1# 0-1
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "15"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "Q4nk1/1pq2pp1/3p1B2/1B1P4/2P5/2P2b1p/P4PrP/4RK2 w - - 0 1"]
+[PlyCount "3"]
+[GameId "2202086485110195"]
+
+1. Qxf8+ Kxf8 2. Re8# 1-0
+
+[Event "?"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "16"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[SetUp "1"]
+[FEN "4k3/2n2p2/4pP2/P2nN2p/4qP2/8/Q5RP/2r3NK b - - 0 1"]
+[PlyCount "3"]
+[GameId "2202086485212596"]
+
+1... Rxg1+ 2. Kxg1 Qe1# {Mate in} 0-1
