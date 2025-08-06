@@ -1,0 +1,29 @@
+- content_for(:title) { "Puzzle set | #{@puzzle_set.name}" }
+
+section.game-mode.puzzle-set
+  .container
+    .board-area-container
+      = render partial: "puzzle_player/above_board"
+      .board-area
+        .chessground-board
+          .piece-promotion-modal-mount
+          .chessground
+          .board-modal-container.invisible(style="display: none")
+    .right-sidebar.vue-app-mount
+      .ps-info
+        .ps-name= @puzzle_set.name
+        .ps-description= @puzzle_set.description
+      .ps-meta-info
+        .ps-creator
+          | a puzzle set
+          br
+          | created by
+          =< link_to @puzzle_set.user.username, "/#{@puzzle_set.user.username}"
+        .ps-puzzle-count= "#{@puzzle_set.lichess_v2_puzzles.count} puzzles"
+
+      - if current_user && current_user == @puzzle_set.user
+        .ps-actions
+          = link_to "Edit puzzle set", "/ps/#{@puzzle_set.id}/edit"
+
+      .ps-instructions
+        | Make a move to start the timer

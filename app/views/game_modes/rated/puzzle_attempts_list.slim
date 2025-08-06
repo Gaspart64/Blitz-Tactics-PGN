@@ -1,0 +1,10 @@
+section.puzzle-attempts
+  .container
+    h2 Your recent puzzle attempts
+
+    - @puzzle_attempts.each do |attempt|
+      .puzzle-attempt
+        ruby:
+          puzzle = attempt.rated_puzzle
+        = homepage_miniboard_link "/rated/attempts/#{attempt.id}", puzzle
+        = attempt.outcome

@@ -1,0 +1,55 @@
+<% content_for(:title) { "Log in" } %>
+
+<div class="container">
+  <div class="registration">
+    <h2>Log in</h2>
+
+    <%= render "devise/shared/links" %>
+
+    <%# password reset notice shows up here %>
+    <% flash.each do |key, value| %>
+      <% if key == "notice" %>
+        <div class="alert alert-<%= key %>"><%= value %></div>
+      <% end %>
+    <% end %>
+
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+      <div class="field">
+        <%= f.label :username %>
+        <%= f.text_field :username, autofocus: true %>
+      </div>
+
+      <div class="field">
+        <%= f.label :password %>
+        <%= f.password_field :password, autocomplete: "off" %>
+      </div>
+
+      <% if devise_mapping.rememberable? -%>
+        <div class="field">
+          <%= f.hidden_field :remember_me, value: "1" %>
+        </div>
+      <% end -%>
+
+      <div class="actions">
+        <%= f.submit "Log in", class: "blue-button" %>
+      </div>
+
+    <% end %>
+
+    <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+      <%= link_to "Forgot your password?", new_password_path(resource_name) %><br />
+    <% end -%>
+
+    <%# error messages show up here %>
+    <% flash.each do |key, value| %>
+      <% if key == "alert" %>
+        <div class="alert alert-<%= key %>">
+          <ul>
+            <li><%= value %></li>
+          </ul>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>
